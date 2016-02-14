@@ -1,4 +1,4 @@
-package behavioral.chainOfResponsibility;
+package behavioral.chain;
 
 /**
  * Created by jarydu on 2/14/16.
