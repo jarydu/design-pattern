@@ -1,0 +1,8 @@
+package creational.abstractFactory;
+
+/**
+ * Created by jarydu on 2/15/16.
+ */
+public interface Shape {
+    void draw();
+}
