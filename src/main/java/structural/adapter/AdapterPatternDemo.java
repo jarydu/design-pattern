@@ -1,6 +1,19 @@
 package structural.adapter;
 
 /**
+ *
+ * Pattern Structure
+ *
+ * I -> MediaPlayer
+ * I -> AdvancedMediaPlayer
+ *
+ * AudioPlayer -> MediaPlayer
+ * Mp4Player -> AdvancedMediaPlayer
+ * VlcPlayer -> AdvancedMediaPlayer
+ *
+ *
+ *
+ *
  * Created by jarydu on 2/3/16.
  */
 public class AdapterPatternDemo {
