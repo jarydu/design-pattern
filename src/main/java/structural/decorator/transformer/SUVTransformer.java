@@ -22,7 +22,7 @@ public class SUVTransformer extends TransformerDeco {
     }
 
     public static void main(String[] args) {
-        Vehicle suvT = new SUVTransformer(new SUV());
+        Vehicle suvT = new SUVTransformer(new SUV("OG"));
 
         suvT.run();
         suvT.stop();

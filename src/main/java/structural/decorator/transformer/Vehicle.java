@@ -8,4 +8,8 @@ public interface Vehicle {
     void run();
 
     void stop();
+
+    default void destroy() {
+        throw new UnsupportedOperationException();
+    }
 }
